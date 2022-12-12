@@ -1,3 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  height: 35px;
+  border: none;
+  margin-top: 0%;
+  font-size: 15px;
+  font-family: "Bebas Neue", cursive;
+  background-color: black;
+}
+header a:hover {
+  background-color: rgb(255, 255, 0);
+  color: black;
+}
+
+.fondoBarra_item {
+  padding: 5px;
+}
+.fondoBarra_item button {
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/carrito.png);
+  background-size: cover;
+  border-radius: 100%;
+  background-size: 28px;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+.fondoBarra_item select {
+  width: 85px;
+  background-color: beige;
+  border: 1px solid black;
+  padding: 2px;
+}
+.fondoBarra_buscar {
+  justify-self: end;
+  width: 70%;
+  background-color: beige;
+  border: 1px solid black;
+  padding: 2px;
+}
+.fondoBarra_buscar:focus {
+  outline: solid 2px black;
+}
+
+.todosProductos button {
+  border: 0px;
+  width: 370px;
+  height: 370px;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.todosProductos_af1 {
+  background-image: url(../img/af1.webp);
+}
+.todosProductos_blz {
+  background-image: url(../img/blazers.webp);
+}
+.todosProductos_fl {
+  background-image: url(../img/forum.webp);
+}
+.todosProductos_nb550 {
+  background-image: url(../img/newbalance.webp);
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: beige;
+  width: 100%;
+  height: 35px;
+  border: none;
+  margin-top: 0%;
+  font-size: 15px;
+  font-family: "Bebas Neue", cursive;
+  border-top: solid 0.5px rgb(20, 20, 20);
+}
+footer a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.sites {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.sites button {
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  background-position-x: center;
+  background-position-y: center;
+}
+.sites_btW {
+  background-image: url(../img/wpp.jfif);
+  background-size: 115px;
+}
+.sites_btnI {
+  background-image: url(../img/instagram.webp);
+  background-size: 50px;
+}
+.sites_btnF {
+  background-image: url(../img/facebook.jpg);
+  background-size: 115px;
+}
+.sites_btnT {
+  background-image: url(../img/telegram.jpg);
+  background-size: 60px;
+}
+
+.barraNav {
+  display: flex;
+  padding: 7px;
+  justify-content: flex-end;
+}
+.barraNav_items {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  background-color: beige;
+}
+.barraNav_item {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3px;
+  font-family: "Rubik Bubbles", cursive;
+  font-weight: lighter;
+}
+.barraNav_item a {
+  padding: 2px;
+}
+.barraNav_item a:hover {
+  background-color: black;
+  color: beige;
+}
+
+.todosProductos {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 50px 0px;
+  flex-wrap: wrap;
+}
+.todosProductos_producto {
+  text-align: center;
+  background-color: black;
+  font-family: "Lobster", cursive;
+  color: beige;
+  font-size: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 30px;
+}
+.todosProductos_producto:hover {
+  background-color: yellow;
+  color: black;
+  padding: 2px;
+  padding-bottom: 0px;
+}
+.todosProductos_precio {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+
+header {
+  background-color: beige;
+  background-image: url(../img/converse.webp);
+  background-size: cover;
+  margin-bottom: 0;
+  height: 55vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 65%;
+  align-items: center;
+}
+.container_tituloP {
+  font-size: 10rem;
+  color: beige;
+  font-family: "Lobster", cursive;
+  backdrop-filter: blur(1px);
+}
+
+.fondoBarra {
+  background-color: rgb(137, 19, 15);
+  align-items: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.fondoBarra_items {
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.videosAsmr {
+  display: flex;
+  position: relative;
+  background-color: rgb(40, 40, 40);
+  gap: 1px;
+}
+.videosAsmr iframe {
+  width: 33.3%;
+  height: 100%;
+}
+
+footer {
+  background-color: rgb(38, 38, 38);
+  color: beige;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+}
+footer h2 {
+  display: inline-block;
+  padding: 10px;
+  font-size: 28px;
+}
+footer p {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", cursive;
+}
+footer div {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+.barraNav{
+    display: flex;
+    padding: 7px;
+    justify-content: flex-end;
+
+    &_items{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        background-color: beige;
+    }
+
+    &_item{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3px;
+        font-family: 'Rubik Bubbles', cursive;
+        font-weight: lighter;
+
+        a{
+            padding: 2px;
+
+            &:hover{
+                background-color: $color-terciario;
+                color: $color-secundario;
+            }
+        }
+
+    }
+
+}

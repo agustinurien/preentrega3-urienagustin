@@ -19,6 +19,8 @@
 
         a{
             padding: 2px;
+            background-color: $color-secundario;
+            color: $color-terciario;
 
             &:hover{
                 background-color: $color-terciario;

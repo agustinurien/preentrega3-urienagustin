@@ -156,6 +156,8 @@ footer a:hover {
 }
 .barraNav_item a {
   padding: 2px;
+  background-color: beige;
+  color: black;
 }
 .barraNav_item a:hover {
   background-color: black;

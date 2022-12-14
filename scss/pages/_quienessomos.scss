@@ -1,0 +1,40 @@
+.fondoT{
+    background-color: black;
+    color: beige;
+    text-align: center;
+}
+
+.bloqueT{
+    padding: 20px;
+    h2{
+        padding: 6px;
+        font-size: 2rem;
+        font-family: 'Lobster', cursive;
+    }
+    p{
+        padding: 6px;
+        font-size: 1rem;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+
+.equipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    padding-bottom: 30px ;
+
+    img{
+        padding: 30px 30px;
+        width: 500px;
+        height: 500px;
+    }
+
+    span{
+        font-size: 1rem;
+        font-family: 'Bebas Neue', cursive;
+    }
+}

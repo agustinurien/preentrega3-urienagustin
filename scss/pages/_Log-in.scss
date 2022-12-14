@@ -1,0 +1,37 @@
+.fondoL{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    text-align: center;
+    padding: 40px;
+}
+
+.bloqueL{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: rgb(40, 40, 40);
+    padding: 0px 20px 20px;
+    width: 500px;
+
+    h2{
+        font-family: 'Lobster', cursive;
+        font-size: 35px;
+        padding: 5px;
+    }
+
+    &_items{
+        li{
+            display: block;
+            width: 100%;
+            padding: 5px;
+
+            input{
+                display: block;
+                width: 100%;
+                height: 25px;
+            }
+        }
+    }
+}

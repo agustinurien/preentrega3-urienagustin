@@ -17,6 +17,14 @@ header{
         color: $color-secundario;
         font-family: 'Lobster', cursive;
         backdrop-filter: blur(1px);
+
+        @include media-up(lg) {
+            font-size: 6.5rem;
+        }
+
+        @include media-up(md) {
+            font-size: 4.5rem;
+        }
     }
 }
 

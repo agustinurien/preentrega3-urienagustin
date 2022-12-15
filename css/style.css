@@ -73,6 +73,12 @@ header a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  .todosProductos button {
+    width: 270px;
+    height: 270px;
+  }
+}
 .todosProductos_af1 {
   background-image: url(../img/af1.webp);
 }
@@ -121,7 +127,7 @@ footer a:hover {
 }
 .sites_btW {
   background-image: url(../img/wpp.jfif);
-  background-size: 115px;
+  background-size: 50px;
 }
 .sites_btnI {
   background-image: url(../img/instagram.webp);
@@ -198,6 +204,20 @@ footer a:hover {
   padding: 50px 0px;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 1200px) {
+  .todosProductos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .todosProductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .todosProductos_producto {
   text-align: center;
   background-color: black;
@@ -238,6 +258,16 @@ header {
   color: beige;
   font-family: "Lobster", cursive;
   backdrop-filter: blur(1px);
+}
+@media screen and (max-width: 1200px) {
+  .container_tituloP {
+    font-size: 6.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container_tituloP {
+    font-size: 4.5rem;
+  }
 }
 
 .fondoBarra {
